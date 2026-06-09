@@ -2,7 +2,7 @@ name: Daily Discord Image
 
 on:
   schedule:
-    - cron: '59 4 * * *'
+    - cron: '59 23 * * *'
   workflow_dispatch:  # ← Add this line, it enables the manual run button
 
 jobs:
