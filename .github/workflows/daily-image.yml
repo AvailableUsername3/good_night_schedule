@@ -2,7 +2,7 @@ name: Daily Discord Image
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # Runs every day at 2:00 PM UTC (9 AM Eastern)
+    - cron: '59 4 * * *'  # Every day at 11:59 PM Eastern
 
 jobs:
   post-image:
