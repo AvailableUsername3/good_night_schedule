@@ -14,9 +14,9 @@ jobs:
           curl -X POST "${{ secrets.DISCORD_WEBHOOK }}" \
             -H "Content-Type: application/json" \
             -d '{
-              "username": "Daily Image Bot",
+              "username": "Sleeper",
               "embeds": [{
-                "title": "Your Daily Image!",
+                "title": "Goodnight.",
                 "image": {
                   "url": "https://cdn.discordapp.com/attachments/1152319221523550298/1513757047022162030/bd4cf5f4b97d4370d444682204f920aa.png?ex=6a28e39c&is=6a27921c&hm=f1f6847e3362e00748ca9dc5fd34cfe3d064f10a7a20e640e2879dfa920ed9b3&"
                 }
